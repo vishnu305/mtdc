@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+.app_page{
+  display: flex;
+}
+*{
+  margin: 0;
+
+}
+.todocontainer{
+  margin-bottom: 37px;
+  height: 66.9vh;
+  overflow-y:scroll;
+  color: white;
+  padding: 25px;
+
+}
+.itemppp{
+  display: flex;
+  align-items: center;
+  border: 1px solid #F1F1F1;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  padding: 0;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  width: 96%;
+  overflow-y:scroll;
+}
+.item {
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid #F1F1F1;
+  border-radius: 10px; */
+    border-radius: 10px;
+  background-color: white;
+  color: black;
+  padding: 0 0px;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  width: 96%;
+  /* font-family: sans-serif; */
+}
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: black;
+}
+.item22{
+  margin:10px 10px;
+}
+.modalinput{
+  margin:20px;
+}
+.registercontainerp{
+  background: linear-gradient(to right, #ddd6f3, #faaca8);
+
+  width: 100vw;
+  height: 100vh;
+}
+.registercontainer{
+  height: 400px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin:10%;
+  background-color:#ffeedb;
+  box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
+      rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+}
+.registeritems{
+  margin:20px
+}
+/* .sidebarstyle{
+  height: 100vh;
+} */
+.itemlist23{
+  display: flex;
+  justify-content: space-between;
+
+}
+.itemlist23:hover{
+  background-color: #161616;
+  cursor: pointer;
+}
+
+  /* @media screen and (max-width: 780px){
+    .sidebarstyle{
+      z-index:100;
+  }
+} */
+.mobile-menu-icon{
+  display:none;
+}
+
+@media screen and (max-width: 780px){
+  .mobile-menu-icon{
+    display: block;
+    /* position: absolute; */
+    font-size:30px;
+    color: white;
+    background-color: #00828c;
+    border: none;
+    outline: none;
+    /* left: 90%; */
+    /* top: 38%; */
+    position: relative;
+    z-index: 1;
+  }
+}
